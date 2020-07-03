@@ -12,7 +12,7 @@ set smartcase
 
 set magic
 
-# map leader to <space>, unmap <space>
+" map leader to <space>, unmap <space>
 nnoremap <Space> <Nop>
 let mapleader=" "
 
@@ -26,7 +26,7 @@ set history=500
 vnoremap <silent> * : <C-u>call VisualSelection(",")<C-R>/<C-R>=@/<CR><CR>
 vnoremap <silent> # : <C-u>call VisualSelection(",")<C-R>?<C-R>=@/<CR><CR>
 
-# map ctrl S to save
+" map ctrl S to save
 noremap <C-S>		:update<CR>
 vnoremap <C-S>		<C-C>:update<CR>
 inoremap <C-S>		<C-O>:update<CR>
